@@ -1,30 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Where_is_my_cat-client
 
-## Getting Started
+---
 
-First, run the development server:
+An updated web-app version of Dedicats(https://github.com/naseriansuzie/DediCats_Client)
 
-```bash
-npm run dev
-# or
-yarn dev
+DediCats, we support the coexistence of cats and humans everywhere.
+
+- Google Play Store : https://play.google.com/store/apps/details?id=com.codestake.DediCats
+
+- Project Introduction : https://www.notion.so/1-CodeStake-DediCats-38788b87b32a4c9d964105add197ad94
+
+- Server Repository: https://github.com/rlcjf0014/DediCats_Server
+
+## Quickstart
+
+---
+
+For Expo simulation,
+
+> you can scan the below qr code.
+
+For Android device operation,
+
+> First, fork this repo and 'git clone' in your local storage.
+> Then,
+
+#### Install
+
+```
+$ npm(yarn) install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Dev Mode
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+$ npm(yarn) dev
+```
 
-## Learn More
+- by running this script, localhost:3000 will be activated for rendering dev mode.
 
-To learn more about Next.js, take a look at the following resources:
+## Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Both Client and Server will be built by TypeScript and NodeJS.
 
-## Deploy on Vercel
+**Client**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+React / Next / GraphQl / MobX / Map APIs(Google, Kakao)
