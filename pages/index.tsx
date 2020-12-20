@@ -5,7 +5,6 @@ import QUERY_COUNTRIES from "./queryCountries.graphql";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  console.log('확인', QUERY_COUNTRIES);
   const { data, loading, error } = useQuery(QUERY_COUNTRIES);
   if (loading) {
     return <p>Loading</p>;
@@ -21,7 +20,7 @@ export default function Home() {
       </Head>
       <h1>Countries</h1>
       <div>
-        {data.countries.map((country) => (
+        {data.countries.map(country => (
           <div key={country._id}>{country.name}</div>
         ))}
       </div>
